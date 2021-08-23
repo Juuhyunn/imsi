@@ -3,10 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import SchoolStatus from './SchoolStatus';
+import OnlineProfile from './OnlineProfile';
+import Login from './Login';
+import Join from './Join';
+import CourseResister from './CourseResister';
+import NumberRange from './NumberRange';
+import DateMonth from './DateMonth';
+import Anchor from './Anchor';
+import ImageMap from './ImageMap';
+import Color from './Color';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Color />
   </React.StrictMode>,
   document.getElementById('root')
 );
