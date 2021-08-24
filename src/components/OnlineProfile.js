@@ -1,5 +1,5 @@
 import React from "react";
-import img from "./images/pf.png"
+import img from "../images/pf.png"
 
 const OnlineProfile = () => (<>
 <div>
@@ -14,7 +14,7 @@ const OnlineProfile = () => (<>
     <hr/>
     <h2>Github</h2>
     <ul>
-        <li><a href="https://github.com/Juuhyunn" target="_blank">GitHub</a></li>
+        <li><a href="https://github.com/Juuhyunn" target="_blank" rel="noreferrer" >GitHub</a></li>
     </ul>
     <hr/>
     <h2>Skills</h2>

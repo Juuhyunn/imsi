@@ -1,5 +1,5 @@
 import React from 'react';
-import img from './images/kids.jpg'
+import img from '../images/kids.jpg'
 
 const ImageMap = () => (
     <div>

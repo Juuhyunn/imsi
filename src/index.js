@@ -1,22 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import SchoolStatus from './SchoolStatus';
-import OnlineProfile from './OnlineProfile';
-import Login from './Login';
-import Join from './Join';
-import CourseResister from './CourseResister';
-import NumberRange from './NumberRange';
-import DateMonth from './DateMonth';
-import Anchor from './Anchor';
-import ImageMap from './ImageMap';
-import Color from './Color';
+import Jarviis from './Jarviis';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <Color />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
