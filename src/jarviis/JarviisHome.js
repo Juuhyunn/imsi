@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../images/first.jpg'
 
-const Home = () => (
+const JarviisHome = () => (
     <>
     <div>
             <h1>Jarviis!!</h1>
@@ -12,4 +12,4 @@ const Home = () => (
     </div>
     </>
 )
-export default Home
+export default JarviisHome
