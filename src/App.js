@@ -39,6 +39,7 @@ import Es2018 from './modern-javascript/chap-20-es2018/Es2018'
 import Es2019 from './modern-javascript/chap-21-es2019/Es2019'
 import Es2020 from './modern-javascript/chap-22-es2020/Es2020'
 import TypeScript from './modern-javascript/chap-23-typescript/TypeScript'
+import HomePage from './pages/HomePage';
 
 
 const App = () => (
@@ -47,7 +48,7 @@ const App = () => (
     <NavigationForJavaScript/>
     <hr/>
     <Switch>
-    <Route exact path='/' component = {Home}/>
+    <Route exact path='/' component = {HomePage}/>
     <Redirect from='/home' to = {'/'}/>
     <Route exact path='/login' component = {Login}/>
     <Route exact path='/join' component = {Join}/>
@@ -83,6 +84,7 @@ const App = () => (
     <Route exact path="/21" component={Es2019}></Route>
     <Route exact path="/22" component={Es2020}></Route>
     <Route exact path="/23" component={TypeScript}></Route>
+
     </Switch>
     </>
   );
