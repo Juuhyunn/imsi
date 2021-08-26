@@ -7,7 +7,7 @@ const Navigation = () => (
 <>
 <Nav>
     <Navul>
-        <Navli><Link to="/home">Home</Link></Navli>
+        <Navli><Link to="/todolist">To-do list</Link></Navli>
         <Navli><Link to="/login">login</Link></Navli>
         <Navli><Link to="/join">join</Link></Navli>
     </Navul>

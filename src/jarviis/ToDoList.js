@@ -1,15 +1,15 @@
 import React from 'react';
-import logo from '../images/first.jpg'
+import profile from './images/profile.jpg'
 
-const JarviisHome = () => (
+const ToDoList = () => (
     <>
     <div>
             <h1>Jarviis!!</h1>
             <p>내일 죽을 것처럼 오늘을 살고
                 영원히 살 것처럼 내일을 꿈꾸어라.
             </p>
-            <img src={logo} alt=""/>
+            <img src={profile} alt=""/>
     </div>
     </>
 )
-export default JarviisHome
+export default ToDoList
