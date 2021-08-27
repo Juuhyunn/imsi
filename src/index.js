@@ -10,8 +10,8 @@ import Jarviis from './Jarviis';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
-      {/* <Jarviis/> */}
+      {/* <App /> */}
+      <Jarviis/>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

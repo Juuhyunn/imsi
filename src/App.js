@@ -2,21 +2,11 @@ import React from 'react';
 // import logo from './images/first.jpg';
 // import './App.css';
 import { Redirect, Route, Switch } from 'react-router-dom';
-import SchoolStatus from './components/SchoolStatus';
-import OnlineProfile from './components/OnlineProfile';
-import Login from './components/Login';
-import Join from './components/Join';
-import CourseResister from './components/CourseResister';
-import NumberRange from './components/NumberRange';
-import DateMonth from './components/DateMonth';
-import Anchor from './components/Anchor';
-import ImageMap from './components/ImageMap';
-import Color from './components/Color';
-import Home from './components/Home'
-import Navigation from './components/Navigation';
+import {SchoolStatus, OnlineProfile, Login, Join, CourseResister, NumberRange, DateMonth, Anchor, ImageMap, Color, Navigation } from 'components/index';
+import {HomePage} from 'pages/index'
 
 import NavigationForJavaScript from './components/NavigationForJavaScript'
-import Basic from './modern-javascript/chap-01-basic/Basic'
+import Basic from './modern-javascript/chap-01-var-let-const/Basic'
 import ArrowFuction from './modern-javascript/chap-02-arrow-function/ArrowFunction'
 import Arguments from './modern-javascript/chap-03-arguments/Arguments'
 import TemplateLiteral from './modern-javascript/chap-04-template-literal/TemplateLiteral'
@@ -39,7 +29,7 @@ import Es2018 from './modern-javascript/chap-20-es2018/Es2018'
 import Es2019 from './modern-javascript/chap-21-es2019/Es2019'
 import Es2020 from './modern-javascript/chap-22-es2020/Es2020'
 import TypeScript from './modern-javascript/chap-23-typescript/TypeScript'
-import HomePage from './pages/HomePage';
+// import HomePage from './pages/HomePage';
 
 
 const App = () => (

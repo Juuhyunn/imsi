@@ -1,15 +1,44 @@
 import React from 'react';
-import profile from './images/profile.jpg'
+import styled from 'styled-components';
 
-const ToDoList = () => (
-    <>
-    <div>
-            <h1>Jarviis!!</h1>
-            <p>내일 죽을 것처럼 오늘을 살고
-                영원히 살 것처럼 내일을 꿈꾸어라.
-            </p>
-            <img src={profile} alt=""/>
-    </div>
-    </>
-)
+const ToDoList = () => {
+
+    return (<>
+    <TodolistDiv>
+        <h1>To Do List</h1>
+        <ListDiv>
+            <fieldset>
+            <Listul>
+                <Listli><input type='checkbox'/>운동가기
+                </Listli>
+                <Listli><input type='checkbox'/>밥먹기
+                </Listli>
+                <Listli><input type='text'></input>
+                </Listli>
+            </Listul>
+            </fieldset>
+        </ListDiv>
+
+    </TodolistDiv>
+    </>)
+}
 export default ToDoList
+
+const TodolistDiv = styled.div`
+    padding: 10px;
+    text-align:center;
+    margin:0 auto;
+    width: 70%;
+    height: 500px;
+    background-color: lightgray;
+`
+const ListDiv =styled.div`
+    font-size: 30px;
+`
+const Listul =styled.ul`
+    text-align:left;
+    list-style-type:none;
+`
+const Listli =styled.li`
+    padding: 20px 20%;
+`

@@ -3,25 +3,26 @@ import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 
 
-const Navigation = () => (
+const JarviisNavigation = () => (
 <>
+<h1>Jarviis</h1>
 <Nav>
     <Navul>
         <Navli><Link to="/todolist">To-do list</Link></Navli>
-        <Navli><Link to="/login">login</Link></Navli>
-        <Navli><Link to="/join">join</Link></Navli>
+        <Navli><Link to="/dairy">Dairy</Link></Navli>
+        <Navli><Link to="/admin">Admin</Link></Navli>
     </Navul>
 </Nav>
 </>
 )
-export default Navigation
+export default JarviisNavigation
 
 const Nav = styled.div`
     position:relative;
-    background: #251472;
+    background: red;
     margin-top:-15px;
     width:100%;
-    height:150px;
+    height:100px;
 `
 
 const Navul = styled.ul`
@@ -35,6 +36,6 @@ const Navli = styled.li`
     display:inline;
     float:left;
     font-size:20px;
-    background-color:#fff;
+    background-color: yellow;
     width: 10%;
 `
