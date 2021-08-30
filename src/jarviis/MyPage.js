@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import profile from './images/profile.jpg'
+import profileimg from './images/profile.jpg'
 import setting from './images/settings.png'
 import logout from './images/logout.png'
 import { Link } from 'react-router-dom';
@@ -22,7 +22,7 @@ const MyPage = () => {
         <br/>
         <DivMyPage>
             <br/>
-            <Profile src={profile} alt=""/>
+            <Profile src={profileimg} alt=""/>
             <h3>홍길동님, 안녕하세요!</h3>
             <Menu>    
             <Menuul>
