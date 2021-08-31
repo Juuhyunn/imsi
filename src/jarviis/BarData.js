@@ -73,36 +73,6 @@ const BarData = [
       "friesColor": "hsl(265, 70%, 50%)",
       "donut": 59,
       "donutColor": "hsl(160, 70%, 50%)"
-    },
-    {
-      "country": "AL",
-      "hot dog": 91,
-      "hot dogColor": "hsl(348, 70%, 50%)",
-      "burger": 119,
-      "burgerColor": "hsl(170, 70%, 50%)",
-      "sandwich": 75,
-      "sandwichColor": "hsl(170, 70%, 50%)",
-      "kebab": 82,
-      "kebabColor": "hsl(99, 70%, 50%)",
-      "fries": 75,
-      "friesColor": "hsl(164, 70%, 50%)",
-      "donut": 174,
-      "donutColor": "hsl(65, 70%, 50%)"
-    },
-    {
-      "country": "AM",
-      "hot dog": 164,
-      "hot dogColor": "hsl(265, 70%, 50%)",
-      "burger": 26,
-      "burgerColor": "hsl(335, 70%, 50%)",
-      "sandwich": 1,
-      "sandwichColor": "hsl(23, 70%, 50%)",
-      "kebab": 7,
-      "kebabColor": "hsl(313, 70%, 50%)",
-      "fries": 83,
-      "friesColor": "hsl(203, 70%, 50%)",
-      "donut": 118,
-      "donutColor": "hsl(128, 70%, 50%)"
     }
   ]
   export default BarData

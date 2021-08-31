@@ -1,6 +1,6 @@
 const LineData = [
     {
-      "id": "japan",
+      "id": "추천을 사용함",
       "color": "hsl(242, 70%, 50%)",
       "data": [
         {
