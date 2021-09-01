@@ -2,10 +2,10 @@ import React from 'react';
 // import logo from './images/first.jpg';
 // import './App.css';
 import { Redirect, Route, Switch } from 'react-router-dom';
-import {SchoolStatus, OnlineProfile, Login, Join, CourseResister, NumberRange, DateMonth, Anchor, ImageMap, Color, Navigation } from 'components/index';
-import {HomePage} from 'pages/index'
+import {SchoolStatus, OnlineProfile, Login, Join, CourseResister, NumberRange, DateMonth, Anchor, ImageMap, Color, Navigation } from 'common/components/index';
+import {HomePage} from 'common/pages/index'
 
-import NavigationForJavaScript from './components/NavigationForJavaScript'
+import NavigationForJavaScript from './common/components/NavigationForJavaScript'
 import Basic from './modern-javascript/chap-01-var-let-const/Basic'
 import ArrowFuction from './modern-javascript/chap-02-arrow-function/ArrowFunction'
 import Arguments from './modern-javascript/chap-03-arguments/Arguments'
